@@ -2,8 +2,6 @@ import "./App.css";
 
 function App() {
 
-  cons
-
   return (
     <>
     <p className=""></p>
