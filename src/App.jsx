@@ -6,7 +6,6 @@ function App() {
     <>
     <p className=""></p>
     <p></p>
-    <h1 className=""></h1>
     </>
   );
 }
