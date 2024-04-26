@@ -4,8 +4,7 @@ function App() {
 
   return (
     <>
-    <p className=""></p>
-    <p></p>
+   
     </>
   );
 }
