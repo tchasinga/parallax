@@ -6,7 +6,6 @@ export default function Design() {
 
   const handleMouseOver = () => {
     setHoverState("the best way to hover");
-    console.log(handleMouseOut)
   };
 
 
