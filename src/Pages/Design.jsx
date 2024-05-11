@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function Design() {
-  const letterMessage = "hover is not there";
+  const letterMessage = "hover is greta than what you thinks !!";
   const [hoverState, setHoverState] = useState(letterMessage);
 
   const handleMouseOver = () => {
