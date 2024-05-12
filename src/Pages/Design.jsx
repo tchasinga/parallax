@@ -16,12 +16,20 @@ export default function Design() {
   return (
     <div>
       <h1
-        className="text-4xl text-center font-bold text-blue-500 hover:text-red-500 duration-700 mt-5 mx-auto max-w-4xl ring-2 ring-violet-300"
+        className="text-4xl text-center font-bold text-blue-500 hover:text-red-500 md:text-xl sm:text-green-800"
         onMouseOver={handleMouseOver}
         onMouseOut={handleMouseOut}
       >
         {hoverState}
       </h1>
+
+      <div className="max-w-4xl mx-auto bg-green-500 grid">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+        <div>04</div>
+        <div>05</div>
+      </div>
     </div>
   );
 }

@@ -30,6 +30,11 @@
  background: rgba(254, 170, 170, 0.29); 
 }
 
-h1{
-  color: black;
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit , minmax(200px, 1fr));
+}
+
+.grid > div:nth-child(even){
+  background-color: blue;
 }

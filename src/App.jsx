@@ -1,6 +1,5 @@
 import "./App.css";
-import Design from "./Pages/Design.jsx";
-
+import Design from "./Pages/Design";
 function App() {
 
 
